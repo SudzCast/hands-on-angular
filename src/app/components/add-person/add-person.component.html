@@ -1,0 +1,14 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" [(ngModel)]='newPerson.firstName'>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" [(ngModel)]='newPerson.lastName'>
+
+        <label for="funFact">Fun Fact</label>
+        <input type="text" name="funFact" [(ngModel)]='newPerson.funFact'>
+
+        <input type="submit" value="Submit" class="btn btn-block">
+    </div>
+</form>
