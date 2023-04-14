@@ -1,0 +1,21 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "firstName": "Tom",
+      "lastName": "Corbin",
+      "funFact": "Magnum P.I., starring Tom Selleck, is actually a dramatic retelling on Tom's life"
+    },
+    {
+      "firstName": "Spencer",
+      "lastName": "Miller",
+      "funFact": "Once fought a narwhal in a duel, and won.",
+      "id": 2
+    },
+    {
+      "firstName": "Venkat",
+      "lastName": "Gandhi",
+      "funFact": "Helped fake the moon landing."
+    }
+  ]
+}
